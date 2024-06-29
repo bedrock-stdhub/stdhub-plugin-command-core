@@ -1,17 +1,20 @@
-# stdhub-plugin-template
+# stdhub-plugin-command-core
 
-A `bedrock-stdhub` plugin starter project.
+The core plugin for handling plugin-defined commands from players.
 
 # Usage
 
-For detailed usage, please refer to [the official website](https://bedrock-stdhub.gdt.pub/begin-coding.html#initialize-your-project). The following is a brief version:
+Copy the plugin to the `plugins` directory. Any plugin that has custom commands must rely on this plugin.
 
-> Generate a new Git repository from this template, and then execute:
-> ```shell
-> npx stdhub-cli init
-> ```
-> and answer some questions.
-> 
-> After initializing, run `npm install` (or other package managers, `yarn` recommended) and start coding.
+## Configuration
 
-In addition, there is also a [demo repository](https://github.com/bedrock-stdhub/stdhub-plugin-demo) that shows usages of these APIs.
+```yaml
+commandPrefix: .
+```
+The only option is the prefix of commands.
+
+If you want to change that into other values, you'd better wrap the new value with quotes, for example:
+```yaml
+commandPrefix: "!"
+```
+or unexpected things will happen.
