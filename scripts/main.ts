@@ -1,4 +1,4 @@
 import { StdhubPluginApi } from 'stdhub-plugin-api';
 
-export const pluginName = 'stdhub-plugin-template';
+export const pluginName = 'command-core';
 export const api = new StdhubPluginApi(pluginName);

@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "command-core-RP",
+    "description": "Resource pack for plugin command-core",
+    "uuid": "5cdb2986-6708-4c4b-b2dd-ed35e4d7e444",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resource Pack",
+      "type": "resources",
+      "uuid": "268f4f83-5898-42e4-a5fd-fcf3b04a8bd6",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "1f62978b-cdd3-479c-ac40-0363c5154b87",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

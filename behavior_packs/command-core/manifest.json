@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "command-core-BP",
+    "description": "The core plugin for handling plugin-defined commands from players.",
+    "uuid": "1f62978b-cdd3-479c-ac40-0363c5154b87",
+    "version": [
+      0,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "8d8069c7-0ea3-4975-9270-fc090f54d7e3",
+      "version": [
+        0,
+        1,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.12.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-admin",
+      "version": "1.0.0-beta"
+    },
+    {
+      "uuid": "5cdb2986-6708-4c4b-b2dd-ed35e4d7e444",
+      "version": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}
