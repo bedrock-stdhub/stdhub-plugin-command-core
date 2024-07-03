@@ -1,3 +1,7 @@
+# Deprecated. Go to the [new repository](https://github.com/bedrock-stdhub-plugins/command-core)
+
+---
+
 # stdhub-plugin-command-core
 
 The core plugin for handling plugin-defined commands from players.
